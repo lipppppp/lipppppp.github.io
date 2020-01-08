@@ -1,46 +1,25 @@
-> 离开世界之前，一切都是过程。
+> Be obsessed
 
-Hi，我是黄玄，前端 Online NPC，编程语言/编译器初心者，[Facebook](https://www.facebook.com/) 签约软件工程师，[广院](https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E4%BC%A0%E5%AA%92%E5%A4%A7%E5%AD%A6)认证数字设计师。我曾被招募为阿里巴巴 · [阿里旅行（飞猪）](http://alitrip.com)· 前端工程师、微影时代 · 微票儿 · 前端基础设施工程团队负责人、[饿了么](https://ele.me/) · 大前端团队 · [PWA 顾问](https://medium.com/elemefe/upgrading-ele-me-to-progressive-web-app-2a446832e509) 等。
+折腾了这么久，总算"抄"来了自己的博客。设立这个博客的初衷是为了记录下在工作学习中总结的一些文档，但人总是有点矫情，对于生活的一些感悟顺便也写写啦:smile:。
 
-目前的物理活动范围主要在美帝，分身日常出没于[博客](https://huangxuan.me)、[微博](https://weibo.com/huxpro)、[知乎](https://www.zhihu.com/people/huxpro/pins/posts)、[Twitter](https://twitter.com/Huxpro/)、[Github](https://github.com/huxpro)、[Medium](https://medium.com/@Huxpro)。
+#### 关于工作
 
+目前在大数据行业工作，主要从事大数据平台（PaaS层）相关研发。主攻于Hadoop的HDFS，附带做一些YARN、MR与Elasticsearch相关工作。未来整理在本博客的文档，多以这几个方向为主，附带一些Linux、Java等相关基础的学习文档。
 
-##### 编程语言倾向
+#### 关于生活
+对于生活本身而言，五味杂陈。日子久了难免总有些想法，憋在心里还是堵塞。将生活写在博客里，一来是宣泄那些有的没的情感，二来还是说一些感悟自省一下近况。
 
-我倾向于 ML（“Meta Language”）等「函数式编程为主（mostly functional programming）」风格的编程语言，所以也就不难理解我的很多选择了：JavaScript 于动态类型、Scala 于 JVM 语言、Rust 于非托管语言等。
+#### 关于未来
+人生还是要有目标的嘛，看到大佬们的网页里都介绍了自己擅长的领域和对应能力的评估，真是相形见绌。不妨给自己定几个小目标（随着时间还会修改），警醒自己不要安于现状。
 
-> __从左到右__ 为喜欢程度，__从上到下__ 为了解程度，__版本__ 表示下界。
+- 语言类：Java目前是本人接触较多、使用较多的语言，要是能力水平满分五星的话，现在也就半颗星吧。目标三年内达到三星水准 :star::star::star:。
+- 技术基础类：计算机基础知识薄弱，计划学习下数据结构和网络安全相关知识。
+- 大数据类：天天和Hadoop打交道，当然还是要看看源码啦。一年内看完Hadoop核心代码，目标达到 :star::star::star:。
 
-|     | 💔️           | ❤️ ️                   | ❤️❤️ ️             | ❤️❤️❤️ ️               |
-| --- | ------------- | ---------------------- | ------------------ | ---------------------- |
-| 😅  | `PHP` `BASIC` | `ObjC` `Prolog` `Hack` | `Kotlin` `Dart`    | `Swift` `Agda` `Idris` |
-| 🧐  |               | `Asm` `C++`  `Lisp*`   | `C++11` `C#` `AS3` | `Scala` `Rust`         |
-| 😏  | `Shell`       | `C` `Java` `Python`    | `Typed JS*` `Wasm` | `Haskell` `Coq` `ML*`  |
-| 🤓  |               | `JavaScript`           | `ECMAScript6`      | `λ` `Λ` `Π` `Σ`        |
-
-> __`ML*` 家族__：`OCaml` `ReasonML` `Standard ML`  
-> __`Lisp*` 家族__：`Clojure` `Scheme` `Racket`  
-> __`Typed JS*`__：`Flow` `TypeScript`
-
-
-##### 演讲与分享
-
-- [Upgrading to Progressive Web Apps][9] · [JSConf CN 上海 2017](http://2017.jsconf.cn/)
-- Building Progressive Web Apps · [CSDI 广州 2017](http://www.csdisummit.com/)
-- The State of Progressive Web App · GDG IO Redux 北京 2017
-- 炒冷饭 · PWA 到底是个什么玩意？· Baidu HQ 北京 2017
-- [Service Worker 101][5] · GDG DevFest 北京 2016
-- [Progressive Web App，复兴序章][4] · [QCon 上海 2016](http://2016.qconshanghai.com/presentation/3111)
-- Progressive Web App 之我见 · GDG IO Redux 北京 2016
-- [CSS Still Sucks 2015][2] · 2015
-- [JavaScript 模块化七日谈][1] · 2015
-
-[1]: //huangxuan.me/2015/07/09/js-module-7day/
-[2]: //huangxuan.me/2015/12/28/css-sucks-2015/
-[3]: //huangxuan.me/2016/06/05/pwa-in-my-pov/
-[4]: //huangxuan.me/2016/10/20/pwa-qcon2016/
-[5]: //huangxuan.me/2016/11/20/sw-101-gdgdf/
-[6]: https://yanshuo.io/assets/player/?deck=58ac8598b123db0067292f92 "PWA Rehashing"
-[7]: https://yanshuo.io/assets/player/?deck=593ad6fbfe88c2006a0a0d6d "The State of PWA"
-[8]: https://yanshuo.io/assets/player/?deck=594d673d570c357d0698a950 "Building PWA"
-[9]: //huangxuan.me/jsconfcn2017/
+#### 最后
+坚持才是最重要的，已一篇最爱的古文节选开始这个博客吧。
+> 君子曰：学不可以已。
+> 青取之于蓝而青于蓝，冰水为之而寒于水。木直中绳，輮以为轮。其曲中规，虽有槁暴，不复挺者，輮使之然也。故木受绳则直，金就砺则利。君子博学而日参省乎己，则知明而行无过矣。
+> 吾尝终日而思矣，不如须臾之所学也。吾尝跂而望矣，不如登高之博见也。登高而招，臂非加长也，而见者远。顺风而呼，声非加疾也，而闻者彰。假舆马者，非利足也，而致千里。假舟楫者，非能水也，而绝江河。君子生非异也，善假于物也。
+> 积土成山，风雨兴焉。积水成渊，蛟龙生焉。积善成德，而神明自得，圣心备焉。故不积跬步，无以至千里。不积小流，无以成江海。骐骥一跃，不能十步。驽马十驾，功在不舍。锲而舍之，朽木不折。锲而不舍，金石可镂。蚓无爪牙之利，筋骨之强，上食埃土，下饮黄泉，用心一也。蟹六跪而二螯，非蛇鳝之穴无可寄托者，用心躁也。 
+>《劝学》 --荀子

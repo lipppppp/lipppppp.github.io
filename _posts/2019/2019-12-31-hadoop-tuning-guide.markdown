@@ -25,6 +25,7 @@ tags:
 - 根据Hadoop工作负载的性质，Map / Reduce任务在一段时间内可能不会指示其进度超过mapred.task.timeout中的Hadoop配置属性设置 mapred-site.xml。 默认情况下，此属性设置为600秒。 如果需要，应根据工作负载要求增加此属性的值。但是请注意，如果由于硬件，集群设置或工作负载实施问题而确实存在任务挂起的情况，则将该值增加到异常大的值可能会将其从Hadoop框架中屏蔽掉。这又可能导致性能下降。
 - 如果遇到java.net.SocketTimeoutException这样的异常，例如"timeout while waiting for channel to be ready for read/write"，则hdfs-site.xml中的dfs.socket.timeout和dfs.datanode.socket.write.timeout属性值需要增加到可接受的水平。同样，这里要权衡的是，与这些属性的值无关的真正的超时情况可能会在可接受的时间段内被忽略。
 
+
 # **Hadoop配置调优**
 
 一旦验证了Hadoop集群的硬件和软件组件能够以最佳的开箱即用的性能水平运行，就可以开始深入研究以精调配置旋钮。 Hadoop堆栈的所有级别（Hadoop框架，JVM和OS）上的配置参数都会极大地影响Hadoop工作负载的性能。在本节中，基于我们在调优TeraSort工作负载方面的经验，我们将提供一组准则，可以帮助调整和最大化Hadoop工作负载的性能。这些指南中的步骤可以按照介绍的顺序执行，以实现最大的性能优势。在适当情况下，我们还将提供经验数据，以显示这些准则中建议的性能影响。以下各节将介绍为Hadoop框架，JVM和OS调整配置参数的准则。请注意，本指南中的Hadoop调整建议适用于Hadoop（CDH4.0.1）。
