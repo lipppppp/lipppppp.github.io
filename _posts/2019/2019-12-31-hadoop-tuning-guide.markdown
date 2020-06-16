@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hadoop tuning guide (1)
+title: Hadoop Tuning Guide (1)
 date: '2019-12-31 11:22'
 subtitle: Translate Hadoop Performance Tuning Guide
 author: Eric Yin
